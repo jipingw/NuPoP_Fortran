@@ -12,10 +12,6 @@ Maintainer: Ji-Ping Wang<jzwang@northwestern.edu>
 
 License: GPL-2
 
-3. License
-
-License: GPL-2
-
 4. How to?
 
 a. Ensure you have Fortran compiler installed, e.g. generic fortran compiler (gfortran) or Intel fortran 
@@ -30,8 +26,7 @@ c. Run compiled Fortran codes:
 or
    $ npred_chem
 
-You will need to input sequence file name (in fasta format), species and etc. Two models are built in, 1st order duration HMM and 4th order duration HMM.
-Results will typically be similar. The input of maximum linker length could 100 bp, 150 bp etc, which defines the possible maximum linker length. Longer length requries longer time, while the results will be similar provides a not-too-short linker length is specified. 100 bp should be appropriate for most applications.
+You will need to input sequence file name (in fasta format), species and etc. Two models are built in, 1st order duration HMM and 4th order duration HMM. One for MNase map trained and the other for chemical map trained models.
 
 5. Output
 
