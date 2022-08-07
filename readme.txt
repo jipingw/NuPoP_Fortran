@@ -2,6 +2,8 @@
 
 NuPoP_Fortran is the Fortran codes to predict the nucleosome positioning based on DNA sequences. It is the core code from the NuPoP R package available from http://bioconductor.org. This package provides a simple command line interface for nucleosome positioning prediction. More detailed information can be found in the NuPoP R package documentation enclosed.
 
+We noticed there is another package nuCpos derived from NuPoP for nucleosome positioning prediction. See a performance comparison of NuPoP vs nuCpos, please see https://github.com/jipingw/NuPoP_doc.
+
 
 2. Authors and maintainer
 
