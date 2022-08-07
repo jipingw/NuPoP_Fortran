@@ -1,6 +1,6 @@
 1. About NuPoP_Fortran
 
-NuPoP_Fortran is the Fortran codes to predict the nucleosome positioning based on DNA sequences. It is the core code from the NuPoP R package available from http://bioconductor.org/packages/release/bioc/html/NuPoP.html. This package provides a simple command line interface for nucleosome positioning prediction. More detailed information can be found in the NuPoP R package documentation enclosed (NuPoP.html).
+NuPoP_Fortran is the Fortran codes to predict the nucleosome positioning based on DNA sequences. It is the core code from the NuPoP R package available from http://bioconductor.org. This package provides a simple command line interface for nucleosome positioning prediction. More detailed information can be found in the NuPoP R package documentation enclosed.
 
 
 2. Authors and maintainer
@@ -26,11 +26,15 @@ c. Run compiled Fortran codes:
 or
    $ npred_chem
 
-You will need to input sequence file name (in fasta format), species and etc. Two models are built in, 1st order duration HMM and 4th order duration HMM. One for MNase map trained and the other for chemical map trained models.
+You will need to input sequence file name (in fasta format), species and etc. Two models are built in, 1st order duration HMM and 4th order duration 
+HMM, one trained based MNase maps and the other trained based on chemical maps.
 
 5. Output
 
-NuPoP_Fortran outputs five columns: chromosome coordinate (position), probability that a given chromosome location is the start of a nucleosome(P-start), nucleosome  occupancy(occup) at the given location, the nucleosome affinity score (N/L) and  histone affinity score for every 147 bp. npred will output file with extension _P1.txt  or P4.txt standing for first order and 4th order HMM. The npred_chem will output same files but with _chem extension.
+NuPoP_Fortran outputs five columns: chromosome coordinate (position), probability that a given chromosome location is the start of a nucleosome(P-start), nucleosome 
+occupancy(occup) at the given location, the nucleosome affinity score (N/L) and  histone affinity score for every 147 bp. npred will output file with extension _P1.txt 
+or P4.txt standing for first order and 4th order HMM. The npred_chem will output same files but with _chem extension.
+   
 
 6. References
 
